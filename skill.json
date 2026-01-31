@@ -1,0 +1,39 @@
+{
+  "name": "ollama-worker",
+  "version": "1.0.0",
+  "description": "Delegate tasks to Ollama models (local + cloud) with Claude as orchestrator & QC. Features agent swarm mode, thinking, vision, and tool calling.",
+  "author": "zhound",
+  "license": "MIT",
+  "keywords": [
+    "ollama",
+    "delegation",
+    "local-llm",
+    "agent-swarm",
+    "orchestration",
+    "kimi",
+    "vision",
+    "thinking"
+  ],
+  "triggers": [
+    "delegate to ollama",
+    "use ollama",
+    "ollama worker",
+    "agent swarm",
+    "kimi"
+  ],
+  "dependencies": {
+    "system": ["ollama"],
+    "python": ["requests"]
+  },
+  "models": {
+    "default": "kimi-k2.5:cloud",
+    "local": ["llama3:8b", "phi3:mini"],
+    "cloud": ["kimi-k2.5:cloud", "glm-4.7:cloud", "deepseek-v3.1:cloud"]
+  },
+  "files": [
+    "SKILL.md",
+    "worker.py",
+    "README.md"
+  ],
+  "homepage": "https://clawdhub.com/skills/ollama-worker"
+}
