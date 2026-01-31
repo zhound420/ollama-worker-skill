@@ -33,7 +33,8 @@
   "files": [
     "SKILL.md",
     "worker.py",
-    "README.md"
+    "README.md",
+    "DELEGATION-GUIDE.md"
   ],
   "homepage": "https://clawdhub.com/skills/ollama-worker"
 }
