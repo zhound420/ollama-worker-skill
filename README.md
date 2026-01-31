@@ -2,7 +2,7 @@
 
 > **Claude as orchestrator, Ollama as worker, mandatory QC before delivery.**
 
-> **Level up:** When you're ready for multi-agent debates, philosophical tribunals, and swarm intelligence, see [acp-agents](https://github.com/zhound420/acp-agents-skill).
+> **Level up:** When you're ready for autonomous agent-to-agent orchestration and swarm intelligence, see [a2a-agents](https://github.com/zhound420/a2a-agents-skill).
 
 A Clawdbot skill for delegating tasks to Ollama models while maintaining quality oversight. The key insight: let cheap/fast models handle bulk work, but always have Claude review before the user sees anything.
 
